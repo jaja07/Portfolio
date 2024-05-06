@@ -1,0 +1,34 @@
+.banner {
+    margin: 0;
+    padding: 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .banner p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+  }
+
+  .banner img {
+    width: 100px;       /* Ajuste la largeur de l'image à 100% de son conteneur */
+    height: auto;      /* Ajuste automatiquement la hauteur pour conserver les proportions de l'image */
+    max-width: 600px;  /* Limite la largeur maximale de l'image pour ne pas dépasser 600px */ 
+    display: block;    /* Assure que l'image ne soit pas inline pour permettre des marges, etc. */
+    margin: 0 auto;    /* Centre l'image horizontalement dans son conteneur */
+    margin-top: 100px;
+    margin-bottom: 50px;
+    object-fit: cover; /* Couvre la zone de contenu sans déformer l'image, peut être changé selon le besoin */
+  }

@@ -1,0 +1,31 @@
+ /* Styles for the skills section */
+#skills {
+    background-color: #121212; /* Dark background */
+    color: white; /* White text color */
+    padding: 40px 0; /* Padding around the section */
+  }
+  
+  .title h2 {
+    text-align: center; /* Center the title text */
+    margin-bottom: 20px; /* Space below the title */
+    margin-top: 100px;
+  }
+  
+  /* Flexbox settings for the skills list */
+  ul {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items horizontally */
+    gap: 10px; /* Space between items */
+  }
+  
+  /* Style for each skill */
+  li {
+    background-color: #121212; /* Darker background for each skill */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside each skill */
+    font-size: 16px; /* Text size */
+  }
+  
+
+  
