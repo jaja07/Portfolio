@@ -24,6 +24,7 @@ function App() {
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
     <NavBar />
     <Banner />
+    {/*<Social />*/}
     <Skills />
     <Experience />
     <Projects />
