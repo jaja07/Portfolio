@@ -2,9 +2,7 @@ import education1 from '../img/Capture d’écran du 2024-04-06 12-04-59.png';
 import education2 from '../img/ESIGELEC.png';
 import project1 from "../img/rfid.png";
 import project2 from "../img/Obesity.png"
-import logo from "../img/Logo4.png";
 import ortb from "../img/ORTB.jpg";
-import GitHubIcon from '@mui/icons-material/GitHub'
 import salpetriere from "../img/salpetriere.jpg"
 import cv from "./Jarfino_HOUNGBADJI_CV.pdf";
 
@@ -68,7 +66,6 @@ export const projects = [
     title: "RFID Machine Learning",
     date: "April 2024 - May 2024",
     description: "Vérifier le contenu des cartons de commande",
-    github: GitHubIcon,
     image: project1,
     tags: [
       "Scikit Learn",
@@ -95,20 +92,6 @@ export const projects = [
     category: "Machine Learning",
     github: "https://github.com/jaja07/Obesity_level",
     webapp: "",
-    member: [
-      {
-        name: "Jarfino HOUNGBADJI",
-        img: logo,
-        linkedin: "https://www.linkedin.com/in/jarfino-houngbadji-83b161266/",
-        github: "https://github.com/jaja07?tab=repositories",
-      },
-      {
-        name: "Halil TIAMIYOU",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
   },
   {
     id: 1,
