@@ -6,7 +6,7 @@ import { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import {Banner} from "./components/Banner/banner";
 import {Skills} from "./components/Skills/skills";
-import { Social } from './components/Social/social';
+//import { Social } from './components/Social/social';
 //import Navbar from "./components/Navbar";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -14,11 +14,11 @@ import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styled from "styled-components";
-import { useState, useEffect } from "react";
+//import styled from "styled-components";
+import { useState} from "react";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode] = useState(true);
   return (
     <div className="App">
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
