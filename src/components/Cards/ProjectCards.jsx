@@ -1,9 +1,9 @@
 import GitHubIcon from '@mui/icons-material/GitHub'
 import React from "react";
 import styled from "styled-components";
-import { Bio } from "../../data/constants";
+//import { Bio } from "../../data/constants";
 import IconButton from "@mui/material/IconButton";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 const Button = styled.button`
   display: none;
@@ -109,20 +109,7 @@ const Description = styled.div`
   text-overflow: ellipsis;
 `;
 
-const Members = styled.div`
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-`;
-const Avatar = styled.img`
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  margin-left: -10px;
-  background-color: ${({ theme }) => theme.white};
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  border: 3px solid ${({ theme }) => theme.card};
-`;
+
 
 const Git = styled.a`
   display: inline-block;

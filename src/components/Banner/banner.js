@@ -1,7 +1,5 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import headerImg from "../../img/Logo4.png";
-import cv from "../../data/Jarfino_HOUNGBADJI_CV.pdf";
-import { HashLink } from "react-router-hash-link";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import "./banner.css";
