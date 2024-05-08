@@ -124,10 +124,17 @@ const Git = styled.a`
 
 
 
-const ProjectCards = ({ project }) => {
+const ProjectCards = ({ project,setOpenModal }) => {
   return (
-    <Card>
-      <Image src={project.image} />
+    <Card onClick={() => setOpenModal({state: true, project: project})}>
+      {/* Condition pour afficher une image ou une vidéo */}
+      {project.mediaType === 'video' ? (
+        <video controls src={project.mediaUrl}>
+          Désolé, votre navigateur ne supporte pas les vidéos intégrées.
+        </video>
+      ) : (
+        <Image src={project.mediaUrl} alt={project.title} />
+      )}
       <Tags>
         {project.tags?.map((tag, index) => (
           <Tag key={index}>{tag}</Tag> // Ajout de key pour la liste
@@ -137,11 +144,14 @@ const ProjectCards = ({ project }) => {
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
         <Description>{project.description}</Description>
-        <Git href={project.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository">
-          <IconButton>
-            <GitHubIcon />
-          </IconButton>
-        </Git>
+        {project.github ? (
+          <Git href={project.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository">
+            <IconButton>
+              <GitHubIcon />
+            </IconButton>
+          </Git>
+        ) : null}
+
       </Details>
     </Card>
   );
