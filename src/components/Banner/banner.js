@@ -52,7 +52,8 @@ export const Banner = () => {
               <h1>{`Hi! I'm Jarfino HOUNGBADJI`}</h1>
               <h3>{"Big Data Student"}</h3>
               <p>
-              As a second-year engineering student at ESIGELEC, I'm specializing in Big Data, where I'm developing skills in data science, data engineering and data analysis. Passionate about the power of data to transform industries, I'm focused on mastering the tools and techniques needed to excel as a future Big Data professional.
+              As a last-year engineering student at ESIGELEC, I'm specializing in Big Data, where I'm developing skills in data science, data engineering and data analysis. 
+              I am currently looking for a 6-month end-of-study internship starting in February 2025.
               </p>
             </div>
           )}
